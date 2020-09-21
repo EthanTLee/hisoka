@@ -1,10 +1,18 @@
 #include<iostream>
 #include<string>
 
+
 using namespace std;
 
 int main() {
-  cout << string(100, 'Hello Hisoka.');
+  string hisoka;
+  hisoka = "hello Hisoka";
+
+  for (int i = 0; i < 150; i++) {
+    
+    cout << hisoka << "\n";
+    hisoka += "a";
+  }
   
   return 0;
 }
